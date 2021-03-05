@@ -4,8 +4,6 @@ const morgan = require('morgan');
 const hostname = 'localhost';
 const port = 3000;
 
-asdfasdfasdf
-
 const app = express();
 app.use(morgan('dev'));
 app.use(express.json());
